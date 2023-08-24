@@ -18,5 +18,16 @@
     <ClCompile Include="SMS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Institutions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SMS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Institutions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -127,7 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Institutions.cpp" />
     <ClCompile Include="SMS.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Institutions.h" />
+    <ClInclude Include="SMS.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
