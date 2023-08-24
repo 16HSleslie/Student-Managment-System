@@ -130,21 +130,23 @@
     <ClCompile Include="Course.cpp" />
     <ClCompile Include="CourseAssessmentMarks.cpp" />
     <ClCompile Include="Department.cpp" />
-    <ClCompile Include="Institutions.cpp" />
+    <ClCompile Include="Institution.cpp" />
     <ClCompile Include="Learner.cpp" />
     <ClCompile Include="Lecturer.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="SMS.cpp" />
+    <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Course.h" />
     <ClInclude Include="CourseAssessmentMarks.h" />
     <ClInclude Include="Department.h" />
-    <ClInclude Include="Institutions.h" />
+    <ClInclude Include="Institution.h" />
     <ClInclude Include="Learner.h" />
     <ClInclude Include="Lecturer.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="SMS.h" />
+    <ClInclude Include="Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

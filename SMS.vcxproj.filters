@@ -18,7 +18,7 @@
     <ClCompile Include="SMS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Institutions.cpp">
+    <ClCompile Include="Institution.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Department.cpp">
@@ -39,12 +39,15 @@
     <ClCompile Include="Person.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SMS.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Institutions.h">
+    <ClInclude Include="Institution.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Department.h">
@@ -63,6 +66,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Person.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
