@@ -11,6 +11,9 @@ class CourseAssessmentMarks
 	std::vector<int> _marks;
 
 public:
-	CourseAssessmentMarks(Course* course, std::vector<int> marks);
+	CourseAssessmentMarks(Course*, std::vector<int>);
+
+	Course* getCourse() { return _course; }
+	std::vector<int> getMarks() { return _marks; }
 };
 

@@ -14,7 +14,7 @@ class Course
 	int _fees;
 
 public:
-	Course(Department* department, int code, std::string name, std::string description, int credits, double fees);
+	Course(Department*, int, std::string, std::string, int, double);
 
 	Department* getDepartment() { return _department; }
 	int getCode() { return _code; }

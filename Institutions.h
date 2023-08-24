@@ -9,7 +9,7 @@ class Institutions
 	std::string _country;
 
 public:
-	Institutions(std::string name, std::string region, std::string country);
+	Institutions(std::string, std::string, std::string);
 
 	std::string getName() { return _name; }
 	std::string getRegion() { return _region; }
