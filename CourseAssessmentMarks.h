@@ -1,5 +1,4 @@
 #pragma once
-#include <iostream>
 #include <string>
 #include <vector>
 
@@ -13,7 +12,7 @@ class CourseAssessmentMarks
 public:
 	CourseAssessmentMarks(Course* course, std::vector<int> marks);
 
-	Course* getCourse() { return _course; }
-	std::vector<int> getMarks() { return _marks; }
+	Course* GetCourse() { return _course; }
+	std::vector<int> GetMarks() { return _marks; }
 };
 

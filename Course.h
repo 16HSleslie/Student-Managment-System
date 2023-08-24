@@ -1,5 +1,4 @@
 #pragma once
-#include <iostream>
 #include <string>
 
 class Department;
@@ -16,11 +15,11 @@ class Course
 public:
 	Course(Department* department, int code, std::string name, std::string description, int credits, double fees);
 
-	Department* getDepartment() { return _department; }
-	int getCode() { return _code; }
-	std::string getName() { return _name; }
-	std::string getDescription() { return _description; }
-	int getCredits() { return _credits; }
-	int getFees() { return _fees; }
+	Department* GetDepartment() { return _department; }
+	int GetCode() { return _code; }
+	std::string GetName() { return _name; }
+	std::string GetDescription() { return _description; }
+	int GetCredits() { return _credits; }
+	int GetFees() { return _fees; }
 };
 

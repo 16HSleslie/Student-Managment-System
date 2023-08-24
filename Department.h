@@ -1,5 +1,4 @@
 #pragma once
-#include <iostream>
 #include <string>
 
 class Institution;
@@ -12,6 +11,6 @@ class Department
 public:
 	Department(Institution* instituion, std::string name);
 
-	Institution* getInstitution() { return _institution; }
-	std::string getName() { return _name; }
+	Institution* GetInstitution() { return _institution; }
+	std::string GetName() { return _name; }
 };

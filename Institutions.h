@@ -11,7 +11,7 @@ class Institutions
 public:
 	Institutions(std::string name, std::string region, std::string country);
 
-	std::string getName() { return _name; }
-	std::string getRegion() { return _region; }
-	std::string getCountry() { return _country; }
+	std::string GetName() { return _name; }
+	std::string GetRegion() { return _region; }
+	std::string GetCountry() { return _country; }
 };

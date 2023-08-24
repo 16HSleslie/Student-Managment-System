@@ -10,5 +10,5 @@ class Learner : public Person
 public:
     Learner(int id, std::string firstName, std::string lastname, CourseAssessmentMarks* courseAssessmentMarks) : Person(id, firstName, lastname) {};
 
-    CourseAssessmentMarks* getCourseAssessmentMarks() { return _courseAssessmentMarks; }
+    CourseAssessmentMarks* GetCourseAssessmentMarks() { return _courseAssessmentMarks; }
 };
