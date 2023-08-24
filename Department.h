@@ -10,7 +10,7 @@ class Department
 	std::string _name;
 
 public:
-	Department(Institution*, std::string);
+	Department(Institution* instituion, std::string name);
 
 	Institution* getInstitution() { return _institution; }
 	std::string getName() { return _name; }
