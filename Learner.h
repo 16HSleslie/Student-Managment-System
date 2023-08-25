@@ -11,6 +11,7 @@ class Learner : public Person
     CourseAssessmentMarks _courseAssessmentMarks;
 
 public:
+    //I have no idea what this error means?
     Learner(int id, std::string firstName, std::string lastname, CourseAssessmentMarks* courseAssessmentMarks) : Person(id, firstName, lastname) 
     {
         _courseAssessmentMarks = courseAssessmentMarks;
