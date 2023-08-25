@@ -13,7 +13,6 @@ void Learner::ReadLearnersFromFile(std::string path, std::vector<Learner>* learn
 	std::ifstream MyReadFile(path);
 
 	while (std::getline(MyReadFile, myText)) {
-		// Output the text from the file
 		std::vector<std::string> learnerString;
 		std::string delimiter = ",";
 		size_t pos = 0;
@@ -26,7 +25,7 @@ void Learner::ReadLearnersFromFile(std::string path, std::vector<Learner>* learn
 		int id = std::stoi(learnerString[0]);
 		Course* course = &Utils::courses[std::stoi(learnerString[3])];
 		std::vector<int> marks = { std::stoi(learnerString[4]), std::stoi(learnerString[5]), std::stoi(learnerString[6]), std::stoi(learnerString[7]), std::stoi(learnerString[8]) };
-		CourseAssessmentMarks courseAssessmentMarks = CourseAssessmentMarks(course, marks);
+		CourseAssessmentMarks* courseAssessmentMarks = &CourseAssessmentMarks(course, marks);
 		(*learners).push_back(Learner(id, learnerString[1], learnerString[2], courseAssessmentMarks));
 	}
 }
