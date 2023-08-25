@@ -33,7 +33,8 @@ void Learner::ReadLearnersFromFile(std::string path, std::vector<Learner>* learn
 		std::vector<int> marks = { std::stoi(learnerString[4]), std::stoi(learnerString[5]), std::stoi(learnerString[6]), std::stoi(learnerString[7]), std::stoi(learnerString[8]) };
 		//not to sure about this part if it will work, i think every time it runs the loop it will just 
 		//replace the old courceassessmentmark that was saved there???
-		CourseAssessmentMarks* courseAssessmentMarks = &CourseAssessmentMarks(course, marks);
+		//yea it wont work keeps giving me an error saying '&' requires i-value
+		CourseAssessmentMarks courseAssessmentMarks = CourseAssessmentMarks(course, marks);
 		//creats an object of learner and saves it to vector that the ptr is pointing to
 		(*learners).push_back(Learner(id, learnerString[1], learnerString[2], courseAssessmentMarks));
 	}
