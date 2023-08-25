@@ -4,17 +4,15 @@
 #include "Department.h"
 #include "Course.h"
 
-
-std::vector<Institution> institutions;
-std::vector<Department> departments;
-std::vector<Course> courses;
-
-
 namespace Utils
 {
-	void SeedInstitutions();
+    extern std::vector<Institution> institutions;
+    extern std::vector<Department> departments;
+    extern std::vector<Course> courses;
 
-	void SeedDepartments();
+    void SeedInstitutions();
 
-	void SeedCourses();
+    void SeedDepartments();
+
+    void SeedCourses();
 }

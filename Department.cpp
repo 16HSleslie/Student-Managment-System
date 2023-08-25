@@ -1,5 +1,5 @@
 #include "Department.h"
-#include "Institutions.h"
+#include "Institution.h"
 
 Department::Department(Institution* institution, std::string name) {
 	_institution = institution;
