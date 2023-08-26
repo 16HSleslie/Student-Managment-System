@@ -28,6 +28,7 @@ class Lecturer : public Person
     Salary* _salary;
     Course* _course;
 
+public:
     Lecturer(int id, std::string firstName, std::string lastName, Position* position, Salary* salary, Course* course) : Person(id, firstName, lastName) 
     {
         _position = position;

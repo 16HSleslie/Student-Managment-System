@@ -8,7 +8,11 @@
 int main()
 {
     Utils::SeedInstitutions();
+    Utils::SeedDepartments();
+    Utils::SeedCourses();
     std::vector<Learner> jeff;
 
-    Learner::ReadLearnersFromFile("C:\\Users\\stanhl1\\Desktop\\Student-Managment-System\\learners.txt", &jeff);
+    Learner::ReadLearnersFromFile("C:\\Users\\idisl\\Documents\\Programming Practice\\Student-Managment-System\\learners.txt", &jeff);
+
+    std::cout << jeff[0].GetFirstName();
 }
