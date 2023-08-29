@@ -14,5 +14,14 @@ public:
 
 	Course* GetCourse() { return _course; }
 	std::vector<int> GetMarks() { return _marks; }
+
+	std::string ConvertMarkToGrade(int mark);
+	std::vector<int>* GetAllMarks();
+	std::vector<std::string> GetAllGrades();
+	std::vector<int> GetHighestMarks();
+	std::vector<std::string> GetHighestGrade();
+	std::vector<int> GetFailMarks();
+	double GetAverageMark();
+	std::string GetAverageGrade();
 };
 
